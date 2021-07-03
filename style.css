@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+header {
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 3px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.main-container {
+  width: 95%;
+  margin: 50px auto;
+}
+
+@media screen and (min-width: 800px) {
+  .main-container {
+    width: 65%;
+  }
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+}
+h1 {
+  color: #f00;
+}
+h2 {
+  text-decoration: underline;
+}
+span {
+  color: #f00;
+}
+.notes {
+  background-color: #f0f0f0;
+  color: #00f;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+ul {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
