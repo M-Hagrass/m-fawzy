@@ -8,7 +8,6 @@ header {
   top: 0;
   width: 100%;
   padding: 5px 3px;
-  font-size: 1.3rem;
   font-weight: bold;
   opacity: 0.7;
 }
@@ -17,12 +16,17 @@ div {
 }
 .main-container {
   width: 95%;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 @media screen and (min-width: 800px) {
   .main-container {
     width: 65%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #links ul li {
+    width: 25%;
   }
 }
 
@@ -34,9 +38,7 @@ img {
 h1 {
   color: #f00;
 }
-h2 {
-  text-decoration: underline;
-}
+
 span {
   color: #f00;
 }
@@ -66,15 +68,23 @@ div .home {
   opacity: 0.7;
 }
 #links {
-  background-color: #000;
-  font-size: 1.2rem;
   font-weight: bold;
   padding: 5px;
 }
+
 #links ul {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#links ul li {
+  display: block;
+  margin: 5px;
+  background-color: black;
+  padding: 6px;
 }
 
 a {
