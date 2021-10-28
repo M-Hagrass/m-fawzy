@@ -55,10 +55,10 @@ ul {
   margin: 0;
 }
 
-div .home {
+div #top {
   color: #fff;
   background-color: #f00;
-  border-radius: 50%;
+  border-radius: 40%;
   display: inline-block;
   position: fixed;
   padding: 5px;
@@ -66,6 +66,12 @@ div .home {
   right: 15px;
   bottom: 15px;
   opacity: 0.7;
+  border: none;
+  cursor: pointer;
+}
+
+#top:hover {
+  color: #0f0;
 }
 #links {
   font-weight: bold;
